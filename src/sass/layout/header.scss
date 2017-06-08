@@ -1,0 +1,17 @@
+.site-header {
+    margin-bottom: 25px;
+}
+
+.site-navigation {
+    @include grid-container;
+    line-height: 3rem;
+    color: #292929;
+}
+
+.site-navigation-section {
+    @include grid-column(4);
+}
+
+.text-link {
+    margin: 0 5px
+}

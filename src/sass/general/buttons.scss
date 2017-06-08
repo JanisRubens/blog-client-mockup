@@ -1,0 +1,12 @@
+//.btn overrides
+
+.btn {
+color: #454d5d;
+        &:hover {
+
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+}

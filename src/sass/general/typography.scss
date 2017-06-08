@@ -1,0 +1,141 @@
+/**
+ * Fonts
+ */
+
+
+@font-face {
+  font-family: "Lora-Bold";
+  src: url("../assets/fonts/Lora-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Lora-BoldItalic";
+  src: url("../assets/fonts/Lora-BoldItalic.ttf");
+}
+
+@font-face {
+  font-family: "Lora-Italic";
+  src: url("../assets/fonts/Lora-Italic.ttf");
+}
+
+@font-face {
+  font-family: "Lora-Regular";
+  src: url("../assets/fonts/Lora-Regular.ttf");
+}
+
+// @font-face {
+//   font-family: "Dosis-Bold";
+//   src: url("../assets/fonts/Dosis-Bold.ttf");
+// }
+
+// @font-face {
+//   font-family: "Dosis-SemiBold";
+//   src: url("../assets/fonts/Dosis-SemiBold.ttf");
+// }
+
+// @font-face {
+//   font-family: "Dosis-ExtraBold";
+//   src: url("../assets/fonts/Dosis-ExtraBold.ttf");
+// }
+
+// @font-face {
+//   font-family: "Dosis-ExtraLight";
+//   src: url("../assets/fonts/Dosis-ExtraLight.ttf");
+// }
+
+// @font-face {
+//   font-family: "Dosis-Light";
+//   src: url("../assets/fonts/Dosis-Light.ttf");
+// }
+
+// @font-face {
+//   font-family: "Dosis-Medium";
+//   src: url("../assets/fonts/Dosis-Medium.ttf");
+// }
+
+// @font-face {
+//   font-family: "Dosis-Regular";
+//   src: url("../assets/fonts/Dosis-Regular.ttf");
+// }
+
+
+// $logo-font-familiy: "Dosis-Light", Arial, sans-serif;
+// $primary-font-family: "Dosis-Regular", Arial, sans-serif;
+// $secondary-font-family: "Dosis-Medium", Arial, sans-serif;
+// $primary-bold-font-family: "Dosis-Bold", Arial, sans-serif;
+// $primary-light-font-family: "Dosis-Light", Arial, sans-serif;
+
+
+$regular-font-family: "Lora-Regular", Arial, sans-serif;
+$light-font-family: "Lora-Italic", Arial, sans-serif;
+$bold-font-family: "Lora-Bold", Arial, sans-serif;
+$light-bold-font-family: "Lora-BoldItalic", Arial, sans-serif;
+$logo-font-familiy: $regular-font-family;
+
+h1, h2, h3,
+h4, h5, h6 {
+  font-family: $bold-font-family;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+body, p, .p1, .p2, .p3 {
+  font-family: $regular-font-family;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+a {
+  font-family: $light-font-family;
+  font-weight: normal;
+  margin-top: 0;
+}
+
+
+h1 {
+  @include font-size(54px);
+}
+
+h2 {
+  @include font-size(46px, 56/46);
+}
+
+h3 {
+  @include font-size(38px, 44/38);
+}
+
+h4 {
+  @include font-size(24px, 29/24);
+}
+
+h5 {
+  @include font-size(20px);
+}
+
+h6 {
+  @include font-size(16px);
+}
+
+.p1 {
+  @include font-size(18px, 28/18);
+}
+
+.p2 {
+  @include font-size(16px, 26/16);
+}
+
+.p3 {
+  @include font-size(14px, 24/14);
+}
+
+.p4 {
+  @include font-size(12px, 22/12);
+}
+
+// .bold {
+//   font-family: $primary-bold-font-family;
+// }
+
+.light {
+  font-family: $light-font-family;
+}
